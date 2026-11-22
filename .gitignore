@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+*.pem
+*.key
+*.p12
+.DS_Store

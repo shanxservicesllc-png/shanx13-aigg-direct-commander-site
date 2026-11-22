@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "shanx13-aigg-direct-commander-account",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-22",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shanx13-aigg-direct-commander-usage",
+      "database_id": "086f18f5-9b36-4ee9-85d6-679348208e2a"
+    }
+  ]
+}
