@@ -15,7 +15,7 @@ class SiteContract(unittest.TestCase):
    self.assertIn('id="'+k+'"',h)
  def test_no_faked_live_metrics(self):
   h=(ROOT/'index.html').read_text('utf-8')
-  for marker in ('NO LIVE DATA','Pricing not yet published','Checkout not enabled','NOT YET CONNECTED'):
+  for marker in ('NO LIVE DATA','Pricing not yet published','Checkout not enabled','AUTHENTICATED CUSTOMER PILOT LIVE'):
    self.assertIn(marker,h)
  def test_buttons_have_actions(self):
   h=(ROOT/'index.html').read_text('utf-8')
